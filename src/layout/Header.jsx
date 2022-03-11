@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+
+
 const Header = () => {
   return (
-    <header >
-      soy header
+    <header className='bg-color1'>
         <Navbar />
+        
     </header>
   )
 }

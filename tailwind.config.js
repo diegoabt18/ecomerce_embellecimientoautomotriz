@@ -1,19 +1,53 @@
 module.exports = {
-  content: ["./src/**/*.{html,jsx}"],
+  mode: 'jit',
+  purge: [
+    './public/**/*.html',
+    './src/**/*.{js,jsx,ts,tsx,vue}',
+  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-    colors:{
-      'color1': '#F4F8F8',
-      'color2': '#AFDBDB',
-      'color3': '#9A4A53',
-      'color4': '#CFA2A5',
-      'color5': '#AE8484',
-    },
-    fontFamily:{
+      fontFamily:{
       ptSans: ['PT Sans', 'sans-serif'],
       nunito: ['Nunito', 'serif'],
       poppins: ['Poppins', 'serif'],
     },
-    extend: {},
+    extend: {
+      colors:{
+        color1: '#F4F8F8',
+        color2: '#AFDBDB',
+        color3: '#9A4A53',
+        color4: '#CFA2A5',
+        color5: '#AE8484',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+        slide:{
+          '0%': { left: '180%' },
+          '100%': { left: '100%' },
+        }
+      },
+      screens: {
+        'mw2xl': {'max': '1535px'},
+        // => @media (max-width: 1535px) { ... }
+  
+        'mwxl': {'max': '1279px'},
+        // => @media (max-width: 1279px) { ... }
+  
+        'mwlg': {'max': '1023px'},
+
+        'mnmg': {'min': '834px'},
+        // => @media (max-width: 1023px) { ... }
+  
+        'mwmd': {'max': '767px'},
+        // => @media (max-width: 767px) { ... }
+  
+        'mwsm': {'max': '640px'},
+        // => @media (max-width: 639px) { ... }
+      },
+    },
   },
   plugins: [],
 }
