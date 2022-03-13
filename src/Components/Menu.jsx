@@ -5,12 +5,14 @@ import Modal from 'react-modal'
 import ButtonClose from './actions/ButtonClose'
 import ButtonSearch from './actions/ButtonSearch'
 import InpuntSearch from './actions/InpuntSearch'
+import { Link, NavLink } from 'react-router-dom'
 
 
 /* importaciones de imagenes */
 import logo from '../images/logo_primario2.svg'
 import logo2 from '../images/logo_secundario_2.svg'
 import next from '../images/buttons/next.svg'
+
 
 const Menu = ({ modalIsOpen, setModalIsOPen, showModal, setShowModal, setSearch }) => {
 
@@ -86,9 +88,9 @@ const Menu = ({ modalIsOpen, setModalIsOPen, showModal, setShowModal, setSearch 
                     <div>
                         <ul className='list-none' >
                             <li className=' px-6 py-2 text-color3 font-semibold font-ptSans border-gray-200 w-full'>EXPLORAR</li>
-                            <li className=' px-6 py-2 text-gray-700 font-nunito font-semibold border-y border-gray-200 w-full'><a href="#" >Inicio</a></li>
-                            <li className=' px-6 py-2 text-gray-700 font-nunito font-semibold border-b border-gray-200 w-full'><a href="#">¿Quienes somos?</a></li>
-                            <li className=' px-6 py-2 text-gray-700 font-nunito font-semibold border-b border-gray-200 w-full'><a href="#">Contacto</a></li>
+                            <li className=' px-6 py-2 text-gray-700 font-nunito font-semibold border-y border-gray-200 w-full'><Link to={"/"} onClick={closeModal} >Inicio</Link></li>
+                            <li className=' px-6 py-2 text-gray-700 font-nunito font-semibold border-b border-gray-200 w-full'><a href="#us" onClick={closeModal}>¿Quienes somos?</a> </li>
+                            <li className=' px-6 py-2 text-gray-700 font-nunito font-semibold border-b border-gray-200 w-full'><a href="#contact" onClick={closeModal} >Contacto</a></li>
                         </ul>
                     </div>
                     <ul>

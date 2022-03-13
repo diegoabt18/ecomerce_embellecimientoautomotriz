@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const ButtonLink = ({link, name, fun}) => {
   return (
-    <NavLink to={link} onClick={()=>fun()} >{name}</NavLink>
+    <NavLink className="border rounded-full px-2 hover:bg-color2" to={link} onClick={()=>fun()} >{name}</NavLink>
   )
 }
 

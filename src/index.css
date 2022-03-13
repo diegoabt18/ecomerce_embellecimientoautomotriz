@@ -4,7 +4,7 @@
 /*uitar recuadro azul Android resalta los toques en los enlaces */
 @layer base {
   html {
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
   }
 }
@@ -28,6 +28,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 55px 0 0 0;
 }
 
 code {

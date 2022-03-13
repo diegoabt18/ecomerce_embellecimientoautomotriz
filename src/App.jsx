@@ -8,28 +8,32 @@ import Footer from './layout/Footer';
 import Products from './pages/Products';
 import { Route, Routes } from 'react-router-dom';
 import Details from './pages/Details';
+import SectionNosotros from './layout/SectionNosotros';
+
 //const Contexto = createContext("");
 
 function App() {
   const [data, setData] = useState(json)
   const [carrito, setCarrito] = useState([])
+ 
   console.log(data)
   return (
     <Context.Provider value={{ data, setData, carrito, setCarrito }}>
       <div className="App" id="App">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/product" element={<Products />} >
-              <Route path=":Category" element={<Products />}/>
-              
-          </Route>
-          <Route path="/product/detail/:id" element={<Details />} />
-        </Routes>
-        <Footer />
+          <Header />
+          <Routes>
+            <Route path="/" element={<Index />} >
+              <Route path="/#us" element={<Index />} />
+            </Route>
+            <Route path="/product" element={<Products />} >
+              <Route path=":Category" element={<Products />} />
+            </Route>
+            <Route path="/product/detail/:id" element={<Details />} />
+          </Routes>
+          <Footer />
+    
       </div>
     </Context.Provider>
-
   );
 }
 

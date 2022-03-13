@@ -29,6 +29,10 @@ module.exports = {
           '100%': { left: '100%' },
         }
       },
+      backgroundImage: {
+        'nosotros': "url('/src/images/quienesSomos.svg')",
+        'us': "url('/src/images/us.png')",
+      },
       screens: {
         'mw2xl': {'max': '1535px'},
         // => @media (max-width: 1535px) { ... }
@@ -39,10 +43,12 @@ module.exports = {
         'mwlg': {'max': '1023px'},
 
         'mnmg': {'min': '834px'},
+        'mwmg': {'max': '834px'},
         // => @media (max-width: 1023px) { ... }
   
-        'mwmd': {'max': '767px'},
+        'mwmd': {'max': '768px'},
         // => @media (max-width: 767px) { ... }
+        'xs': {'min': '350px'},
   
         'mwsm': {'max': '640px'},
         // => @media (max-width: 639px) { ... }

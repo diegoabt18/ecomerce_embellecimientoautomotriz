@@ -5,7 +5,7 @@ import ModalCart from '../Components/ModalCart'
 const Products = () => {
   return (
     <>
-        que paso
+        
         <Cards />
         <ModalCart/>
     </>
