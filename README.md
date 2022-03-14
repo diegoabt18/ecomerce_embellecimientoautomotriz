@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Pagina web Ecomoerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pagina web de productos para el embellecimiento automotriz 
+<p align="center"><img src="https://user-images.githubusercontent.com/47578861/158200711-0c92d3b7-839f-41c8-b182-314bb3514298.png"/></p> 
 
-## Available Scripts
+## Comenzando 
 
-In the project directory, you can run:
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local.
 
-### `npm start`
+* Clonar el repositorio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+git clone https://github.com/diegoabt18/ecomerce_embellecimientoautomotriz.git
+```
+* Instalar las dependencias ejecutas el siguiente comando en tu reminal
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm install
+```
 
-### `npm test`
+* Por ultimo inicias el proyecto el cual se desplegara demanera local en el puerto [localHost](http://localhost:3000/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm start
+```
 
-### `npm run build`
+### Pre-requisitos 📋
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Entonorno de desarrollo_ [Visual Studio Code](https://code.visualstudio.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+_Tener instalado en tu maquina Node.js_ [Node](https://nodejs.org/es/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Despliegue 📦
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+_Para el despliegue de la pagina web se utilizo _ [versel](https://vercel.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/47578861/158201872-02d37ec3-5544-4696-ad9b-f85293706c59.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Puedes Acceder al despliegue 🚀 de la pagina desde el siguiente enlace [ver pagina](https://ecomerce-embellecimientoautomotrizv2-6zpwizccu-diegoabt18.vercel.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Librerias 🛠️
 
-### Code Splitting
+_Se  herramientas que utilizaste para crear tu proyecto_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* [React-router](https://reactrouter.com/) - Este componente me permitirá manejar las rutas de presentación de los componentes que se encuentren en la carpeta pages. 
+* [Tailwind](https://tailwindcss.com/) - Para darle estilos a los componentes hare uso de la librería tailwind, el método de implementación es basado en clases, se puede aplicar con facilidad en el código HTML y que afectan a un aspecto muy concreto y específico de las CSS
+* [React-modal](https://www.npmjs.com/package/react-modal) - Crear ventanas modales dentro de la pagina web
+* [React-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
+* [react-items-carousel](https://www.npmjs.com/package/react-items-carousel) 
+se implementó dos tipos de carruseles para los anuncios de la página y presentación de productos
+* [react-alert](https://www.npmjs.com/package/react-alert) Mensajes de alerta
 
-### Analyzing the Bundle Size
+## Capturas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Vista mobil
+<p align="center"><img src="https://user-images.githubusercontent.com/47578861/158206899-9b0d27fc-822f-4d71-8c01-71677f7250ea.png"/>
+<img src="https://user-images.githubusercontent.com/47578861/158207758-dbc302a7-0aca-460c-a7b3-c21b34830e9d.png"/>
+  <img src="https://user-images.githubusercontent.com/47578861/158211041-2eb608e9-7140-468c-9c83-1ea1f5750721.png"/>
+  <img src="https://user-images.githubusercontent.com/47578861/158211370-feeb14d0-5073-4316-bfb6-b17de19674cb.png"/>
+  <img src="https://user-images.githubusercontent.com/47578861/158211643-8cb45b83-c9cc-45b9-be5a-cc1cd71c69c7.png"/>
+  <img src="https://user-images.githubusercontent.com/47578861/158211918-fa3d92be-30de-48bc-ae36-91e5a07355ac.png"/>
+  <img src="https://user-images.githubusercontent.com/47578861/158212176-7f92487e-b5aa-4a6d-a5c7-f1246ede6b34.png"/>
 
-### Making a Progressive Web App
+</p> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Versionado 📌
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Para el sistema de versionado se utilizo gitFlow, en la rama main se encuentra las versiones funcionales de lapagina y en la dev se encuentra el desarrollo, para la metodologia de desarrollo se utilizo Scrum y el seguimento se realizo atraves de la herramienta [trello](https://trello.com/b/y5NISXvp/e-comerce) 
 
-### Deployment
+## Autores ✒️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* **Diego Botello** - *Desarrollador Full Stack* - [diegoabt18](https://github.com/diegoabt18/)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
