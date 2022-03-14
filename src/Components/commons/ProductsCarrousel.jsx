@@ -89,7 +89,7 @@ const ProductsCarrousel = () => {
                     }
                 </ItemsCarousel>
             </div>
-            <NavLink to={"/product"} className='w-full py-2 text-center flex'><a href="#" className='font-ptSans font-bold  w-full text-center text-lg lg:text-2xl lg:py-4 hover:text-color3'>Ver mas productos...</a></NavLink>
+            <NavLink to={"/product"} className='w-full py-2 text-center flex'><p className='font-ptSans font-bold  w-full text-center text-lg lg:text-2xl lg:py-4 hover:text-color3'>Ver mas productos...</p></NavLink>
         </>
     );
 }

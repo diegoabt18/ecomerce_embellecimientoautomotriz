@@ -5,7 +5,7 @@ import search_svg from '../../images/buttons/search_m.svg'
 
 const ButtonSearch = ({BtnClose,search}) => {
   return (
-    <NavLink to={`/product/search/${search}`}><a onClick={BtnClose} className='items-center' > <img className='w-8' src={search_svg} alt="" /></a></NavLink>
+    <NavLink to={`/product/search/${search}` } onClick={BtnClose}><p  className='items-center' > <img className='w-8' src={search_svg} alt="" /></p></NavLink>
   )
 }
 

@@ -51,7 +51,7 @@ const Navbar = () => {
 
                     <div className='m-0 p-0 flex justify-center items-center gap-1'>
                         <div className='hidden sm:flex sm:justify-center sm:items-center'>
-                            <NavLink to={"/"} className='pl-8 px-6 py-2 font-ptSans font-bold text-color3 hover:border-gray-200 hover:text-color2 border-gray-200 w-full'><a href="#home">Inicio</a></NavLink>
+                            <NavLink to={"/"} className='pl-8 px-6 py-2 font-ptSans font-bold text-color3 hover:border-gray-200 hover:text-color2 border-gray-200 w-full'>Inicio</NavLink>
                             <div className='relative w-fit'>
                                 <input className='peer opacity-0 absolute h-full w-full border z-10 cursor-pointer' type="checkbox" />
                                 <h1 className='  peer-focus:text-color2  transition duration-500 ease-in-out flex flex-row items-center pl-2 pr-12 py-2 text-color3 hover:text-color2 w-full font-ptSans font-bold '>Explorar</h1>
@@ -67,8 +67,8 @@ const Navbar = () => {
                                 <h1 className='  peer-focus:text-color2  transition duration-500 ease-in-out flex flex-row items-center pl-2 pr-12 py-2 text-color3 hover:text-color2 w-full font-ptSans font-bold '>Tienda</h1>
                                 <img className='absolute top-3 right-3 w-4 rotate-180 peer-focus:rotate-0 transition duration-500 ease-in-out' src={next} alt="" />
                                 <ul className='rounded-b-md max-h-0  overflow-hidden peer-focus:max-h-screen transition-all duration-500 ease-in-out absolute bg-color1 z-20 flex flex-col' >
-                                    <NavLink to={"/product/ambientadores"} className=' pl-2 pr-2 py-2 font-nunito font-semibold text-gray-500 border-y border-gray-200 w-fit whitespace-nowrap'><a className='w-full' href="#">Ambientadores</a></NavLink>
-                                    <NavLink to={"/product/accesorios"} className=' pl-2 pr-2 py-2 font-nunito font-semibold text-gray-500 border-y border-gray-200 w-fit whitespace-nowrap'><a className='w-full' href="#">Accesorios</a></NavLink>
+                                    <NavLink to={"/product/ambientadores"} className=' pl-2 pr-2 py-2 font-nunito font-semibold text-gray-500 border-y border-gray-200 w-fit whitespace-nowrap'>Ambientadores</NavLink>
+                                    <NavLink to={"/product/accesorios"} className=' pl-2 pr-2 py-2 font-nunito font-semibold text-gray-500 border-y border-gray-200 w-fit whitespace-nowrap'>Accesorios</NavLink>
                                 </ul>
                             </div>
                         </div>
