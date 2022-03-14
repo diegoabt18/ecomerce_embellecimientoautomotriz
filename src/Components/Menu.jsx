@@ -14,7 +14,7 @@ import logo2 from '../images/logo_secundario_2.svg'
 import next from '../images/buttons/next.svg'
 
 
-const Menu = ({ modalIsOpen, setModalIsOPen, showModal, setShowModal, setSearch }) => {
+const Menu = ({ modalIsOpen, setModalIsOPen, showModal, setShowModal, setSearch, search }) => {
 
     //Configuracion de evento que se ejecuta a traves de un breackpoint
     //para cerrar el menu modal
@@ -82,7 +82,7 @@ const Menu = ({ modalIsOpen, setModalIsOPen, showModal, setShowModal, setSearch 
                 </div>
                 <div className='flex gap-2 justify-center' /* seccion serarch*/>
                     <InpuntSearch  setSearch={setSearch} />
-                    <ButtonSearch BtnClose={closeModal} />
+                    <ButtonSearch BtnClose={closeModal} search={search} />
                 </div>
                 <div className=''>
                     <div>

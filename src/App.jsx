@@ -8,6 +8,7 @@ import Footer from './layout/Footer';
 import Products from './pages/Products';
 import { Route, Routes } from 'react-router-dom';
 import Details from './pages/Details';
+import Search from './Components/Search';
 import SectionNosotros from './layout/SectionNosotros';
 
 //const Contexto = createContext("");
@@ -29,6 +30,7 @@ function App() {
               <Route path=":Category" element={<Products />} />
             </Route>
             <Route path="/product/detail/:id" element={<Details />} />
+            <Route path="/product/search/:name" element={<Search />} />
           </Routes>
           <Footer />
     

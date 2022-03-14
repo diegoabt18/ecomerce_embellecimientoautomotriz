@@ -26,7 +26,14 @@ function ModalCart({ showModal, setShowModal }) {
         SetSubTotal(subtotal);
     }
 
-
+    const sendMessage = () => {
+        let msg = [];
+        for (let item of contexto.carrito) {
+            let textopedido = item.name + " " + item.count;
+            msg += textopedido;
+        }
+        window.open(`https://api.whatsapp.com/send?phone=22312406807&text=Hola quisiera pedir: ${msg} precioTotal: ${subTotal} `);
+    };
 
 
 
@@ -81,7 +88,7 @@ function ModalCart({ showModal, setShowModal }) {
                                                 <p className="text-2xl leading-normal text-gray-800">Total</p>
                                                 <p className="text-2xl font-bold leading-normal text-right text-gray-800">$ {subTotal}</p>
                                             </div>
-                                            <button onClick={() => setShowModal(!showModal)} className="text-base leading-none w-full py-5 bg-gray-800 border-gray-800 border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white">
+                                            <button onClick={() => { setShowModal(!showModal); sendMessage() }} className="text-base leading-none w-full py-5 bg-gray-800 border-gray-800 border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white">
                                                 contáctame
                                             </button>
                                         </div>

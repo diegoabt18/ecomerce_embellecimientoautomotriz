@@ -73,7 +73,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <InpuntSearch setSearch={setSearch} />
-                        <a className='items-center' href="#"> <img className='w-8' src={search_svg} alt="" /></a>
+                        <NavLink to={`/product/search/${search}`} className='items-center' > <img className='w-8' src={search_svg} alt="" /></NavLink>
                         <div className='animate-[wiggle_1s_ease-in-out_infinite] relative cursor-pointer '>
                             <div className='absolute right-0 w-[0.9rem] h-[0.9rem] rounded-full bg-color2 flex justify-center items-center'><p className='font-bold '>{contexto.carrito.length}</p></div>
                             <a className='items-center '  onClick={openModalShoppingCart}> <img className='w-8 ' src={car_svg} alt="" /></a>
@@ -83,9 +83,9 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <Menu modalIsOpen={modalIsOpen} setModalIsOPen={setModalIsOPen} showModal={showModal} setShowModal={setShowModal} setSearch={setSearch} />
+            <Menu modalIsOpen={modalIsOpen} setModalIsOPen={setModalIsOPen} showModal={showModal} setShowModal={setShowModal} setSearch={setSearch} search={search} />
             <ModalCart showModal={showModal} setShowModal={setShowModal}> </ModalCart>
-            {search}
+            
 
 
         </nav>
