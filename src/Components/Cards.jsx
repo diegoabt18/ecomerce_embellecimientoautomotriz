@@ -65,8 +65,10 @@ const Cards = () => {
           <option value="PrecioD" >Precio Mayor</option>
           {(categoria =="ambientadores" ? <option value="botella" >Botellas</option>: "")}
           {(categoria =="ambientadores" ? <option value="lata" >Latas</option>: "")}
+          {(categoria =="ambientadores" ? <option value="tarjeta" >Tarjetas</option>: "")}
           {(categoria =="accesorios" ? <option value="tuallas" >Tuallas</option>: "")}
           {(categoria =="accesorios" ? <option value="microfibra" >Micro Fibra</option>: "")}
+          
         </select>
       </div>
       <div className='grid  grid-cols-2  md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 p-2  gap-4'>

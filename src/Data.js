@@ -3,9 +3,9 @@ const Data=
     "productos": [
         {
             "id":1,
-            "name": "botella Carro Nuevo",
+            "name": "Botella Carro Nuevo",
             "marca": "Areon",
-            "categoria": ["todos","accesorios","botella"],
+            "categoria": ["todos","ambientadores","botella"],
             "descripcion": "La belleza de la naturaleza capturados en estos aromas apasionados.Fragancias de larga duración, hasta 40-50 días. Carcasa hecha de material de madera natural. ",
             "Precio": 15000,
             "car": false,
@@ -13,7 +13,7 @@ const Data=
         },
         {
             "id":2,
-            "name": "botella Chicle",
+            "name": "Botella Chicle",
             "marca": "Areon",
             "categoria": ["todos","ambientadores","botella"],
             "descripcion": "La belleza de la naturaleza capturados en estos aromas apasionados.Fragancias de larga duración, hasta 40-50 días. Carcasa hecha de material de madera natural. ",
@@ -23,7 +23,7 @@ const Data=
         },
         {
             "id":3,
-            "name": "botella Cristal Negro",
+            "name": "Botella Cristal Negro",
             "marca": "Areon",
             "categoria": ["todos","ambientadores","botella"],
             "descripcion": "La belleza de la naturaleza capturados en estos aromas apasionados.Fragancias de larga duración, hasta 40-50 días. Carcasa hecha de material de madera natural. ",
@@ -33,7 +33,7 @@ const Data=
         },
         {
             "id":4,
-            "name": "botella de Fresa",
+            "name": "Botella de Fresa",
             "marca": "Areon",
             "categoria": ["todos","ambientadores","botella"],
             "descripcion": "La belleza de la naturaleza capturados en estos aromas apasionados.Fragancias de larga duración, hasta 40-50 días. Carcasa hecha de material de madera natural. ",
@@ -43,7 +43,7 @@ const Data=
         },
         {
             "id":5,
-            "name": "botella Manzana Canela",
+            "name": "Botella Manzana Canela",
             "marca": "Areon",
             "categoria": ["todos","ambientadores","botella"],
             "descripcion": "La belleza de la naturaleza capturados en estos aromas apasionados.Fragancias de larga duración, hasta 40-50 días. Carcasa hecha de material de madera natural. ",
@@ -53,7 +53,7 @@ const Data=
         },
         {
             "id":6,
-            "name": "botella Tortuga",
+            "name": "Botella Tortuga",
             "marca": "Areon",
             "categoria": ["todos","ambientadores","botella"],
             "descripcion": "La belleza de la naturaleza capturados en estos aromas apasionados.Fragancias de larga duración, hasta 40-50 días. Carcasa hecha de material de madera natural. ",
@@ -120,12 +120,102 @@ const Data=
             "Precio": 20000,
             "car": false,
             "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_lata-vainilla_7619.jpg"
-        }
+        },
+        {
+            "id":13,
+            "name": "Terjeta de Oro",
+            "marca": "Areon",
+            "categoria": ["todos","ambientadores","tarjeta"],
+            "descripcion": "Ambientador con un diseño elegante y fragancia fina. Adecuado para personas sofisticadas. Aroma duradero. Ambientador de cartón para auto y casa con fragancia de perfume/colonia",
+            "Precio": 6000,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_oro_1783.jpg"
+        },
+        {
+            "id":14,
+            "name": "Terjeta de Plata",
+            "marca": "Areon",
+            "categoria": ["todos","ambientadores","tarjeta"],
+            "descripcion": "Ambientador con un diseño elegante y fragancia fina. Adecuado para personas sofisticadas. Aroma duradero. Ambientador de cartón para auto y casa con fragancia de perfume/colonia",
+            "Precio": 6000,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_plata_7053.jpg"
+        },
+        {
+            "id":15,
+            "name": "Terjeta de Platino",
+            "marca": "Areon",
+            "categoria": ["todos","ambientadores","tarjeta"],
+            "descripcion": "Ambientador con un diseño elegante y fragancia fina. Adecuado para personas sofisticadas. Aroma duradero. Ambientador de cartón para auto y casa con fragancia de perfume/colonia",
+            "Precio": 6000,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_platino_9057.jpg"
+        },
+        {
+            "id":16,
+            "name": "Terjeta Bosque Nordico",
+            "marca": "Areon",
+            "categoria": ["todos","ambientadores","tarjeta"],
+            "descripcion": "Creados con estilo y mucho cuidado, proporcionarán en sus estancias sensación de limpieza y confort. Mon Areon es una selección de rica gama de aromas naturales de flores, frutas y fragancias finas. Crea la sensación de comodidad y goce en su automóvil.",
+            "Precio": 5000,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_bosque-nzerdico_9753.jpg"
+        },
+        {
+            "id":17,
+            "name": "Terjeta New Car",
+            "marca": "Areon",
+            "categoria": ["todos","ambientadores","tarjeta"],
+            "descripcion": "Creados con estilo y mucho cuidado, proporcionarán en sus estancias sensación de limpieza y confort. Mon Areon es una selección de rica gama de aromas naturales de flores, frutas y fragancias finas. Crea la sensación de comodidad y goce en su automóvil.",
+            "Precio": 5000,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_carro-nuevo_6005.jpg"
+        },
+        {
+            "id":18,
+            "name": "Paño de Micro Fibra",
+            "marca": "Areon",
+            "categoria": ["todos","accesorios","microfibra"],
+            "descripcion": "Paños de microfibra ultra absorbentes, suaves y resistente, para el interior y/o exterior del vehículo ?ideal para lavar, pulir, limpiar, secar abrillantar o de uso general. ?Tamaño: 40x40 cm",
+            "Precio": 5500,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/small/s-t-distribuciones_pazo-de-microfibra_8059.jpg"
+        },
+        {
+            "id":19,
+            "name": "Paño Wipes",
+            "marca": "Areon",
+            "categoria": ["todos","accesorios","tuallas"],
+            "descripcion": "Un producto adecuado para la limpieza y brillo. Limpian y hacen brillar el salpicadero y las superficies de plástico del automóvil y del hogar.",
+            "Precio": 6500,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_tablero_6188.jpg"
+        },
+        {
+            "id":20,
+            "name": "Paño Wipes Cuero",
+            "marca": "Areon",
+            "categoria": ["todos","accesorios","tuallas"],
+            "descripcion": "Un producto adecuado para la limpieza y brillo. Limpian y hacen brillar el salpicadero y las superficies de plástico del automóvil y del hogar.",
+            "Precio": 6500,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/medium/s-t-distribuciones_cuero_1515.jpg"
+        },
+        {
+            "id":21,
+            "name": "Cera",
+            "marca": "Meguiars",
+            "categoria": ["todos","accesorios","cera"],
+            "descripcion": "Un producto adecuado para la limpieza y brillo. Limpian y hacen brillar el salpicadero y las superficies de plástico del automóvil y del hogar.",
+            "Precio": 80000,
+            "car": false,
+            "imagen": "https://static.vendaenlinea.co/productos/small/s-t-distribuciones_cera-meguiar_935.jpg"
+        },
     ],
     "novedades":[
         {
             "id":1,
-            "name": "botella Carro Nuevo",
+            "name": "Botella Carro Nuevo",
             "marca": "Areon",
             "categoria": ["todos","ambientadores","botella"],
             "descripcion": "La belleza de la naturaleza capturados en estos aromas apasionados.Fragancias de larga duración, hasta 40-50 días. Carcasa hecha de material de madera natural. ",

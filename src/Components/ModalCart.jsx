@@ -29,10 +29,10 @@ function ModalCart({ showModal, setShowModal }) {
     const sendMessage = () => {
         let msg = [];
         for (let item of contexto.carrito) {
-            let textopedido = item.name + " " + item.count;
+            let textopedido = item.name + " x" + item.count+" precio c/u: "+item.Precio+"%0A";
             msg += textopedido;
         }
-        window.open(`https://api.whatsapp.com/send?phone=22312406807&text=Hola quisiera pedir: ${msg} precioTotal: ${subTotal} `);
+        window.open(`https://api.whatsapp.com/send?phone=573043511881&text=Hola Julian, me interesan estos  productos:%0A${msg} precioTotal: ${subTotal}`);
     };
 
 
