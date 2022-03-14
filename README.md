@@ -57,13 +57,13 @@ se implementó dos tipos de carruseles para los anuncios de la página y present
 ## Capturas
 
 Vista mobil
-<p align="center"><img src="https://user-images.githubusercontent.com/47578861/158206899-9b0d27fc-822f-4d71-8c01-71677f7250ea.png"/>
-<img src="https://user-images.githubusercontent.com/47578861/158207758-dbc302a7-0aca-460c-a7b3-c21b34830e9d.png"/>
-  <img src="https://user-images.githubusercontent.com/47578861/158211041-2eb608e9-7140-468c-9c83-1ea1f5750721.png"/>
-  <img src="https://user-images.githubusercontent.com/47578861/158211370-feeb14d0-5073-4316-bfb6-b17de19674cb.png"/>
-  <img src="https://user-images.githubusercontent.com/47578861/158211643-8cb45b83-c9cc-45b9-be5a-cc1cd71c69c7.png"/>
-  <img src="https://user-images.githubusercontent.com/47578861/158211918-fa3d92be-30de-48bc-ae36-91e5a07355ac.png"/>
-  <img src="https://user-images.githubusercontent.com/47578861/158212176-7f92487e-b5aa-4a6d-a5c7-f1246ede6b34.png"/>
+<p align="center"><img width ="30%" src="https://user-images.githubusercontent.com/47578861/158206899-9b0d27fc-822f-4d71-8c01-71677f7250ea.png"/>
+  <img width ="30%" src="https://user-images.githubusercontent.com/47578861/158207758-dbc302a7-0aca-460c-a7b3-c21b34830e9d.png"/>
+  <img width ="30%" src="https://user-images.githubusercontent.com/47578861/158211041-2eb608e9-7140-468c-9c83-1ea1f5750721.png"/>
+  <img width ="30%" src="https://user-images.githubusercontent.com/47578861/158211370-feeb14d0-5073-4316-bfb6-b17de19674cb.png"/>
+  <img width ="30%" src="https://user-images.githubusercontent.com/47578861/158211643-8cb45b83-c9cc-45b9-be5a-cc1cd71c69c7.png"/>
+  <img width ="30%" src="https://user-images.githubusercontent.com/47578861/158211918-fa3d92be-30de-48bc-ae36-91e5a07355ac.png"/>
+  <img width ="30%" src="https://user-images.githubusercontent.com/47578861/158212176-7f92487e-b5aa-4a6d-a5c7-f1246ede6b34.png"/>
 
 </p> 
 
